@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Renan Nunes</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- External scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <section id="header">
+    <nav>
+      <div class="wrapper">
+        <div class="logo">
+          <div id="avatar" style="width: 5vb; height: 5vb;" class="shadow-small rounded-full"></div>
+        </div>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li><a href="#welcome">Home</a></li>
+          <li>
+            <a href="#highlights" class="desktop-item">Projects</a>
+            <input type="checkbox" id="showMega">
+            <label for="showMega" class="mobile-item">Mega Menu</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="Images/ScorchieIdle.gif" alt="Scorchie">
+                </div>
+                <div class="row">
+                  <header>Unity</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Scorchie Adv.</a></li>
+                    <li><a href="#">Cyber Fusion</a></li>
+                    <li><a href="#">Pampam Tales L&B</a></li>
+                    <li><a href="#">Pampam Tales JJK</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Unreal</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Ruff Ghanor</a></li>
+                    <li><a href="#">Amazon Quest</a></li>
+                    <li><a href="#">Motion Matching</a></li>
+                    <li><a href="#">Unreal Shaders</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>Game Maker Studio</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Sonic clone</a></li>
+                    <li><a href="#">Small projects</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header>MonoGame/Java/Ren'py</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Heart Beat</a></li>
+                    <li><a href="#">Minecraft 2D</a></li>
+                    <li><a href="#">Bushiden</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+    </nav>
+  </section>
+
+  <section id="welcome">
+    <div class="container p-6 min-h-screen relative place-items-center grid">
+      <div class="absolute top-14 left-6 flex items-center gap-5">
+        <div id="avatar" class="w-24 h-24 rounded-full shadow-small solid-border"></div>
+        <h1 id="logo">Renan Nunes</h1>
+      </div>
+      <div class="container absolute text-center">
+        <h1 class="title-text">Hi! I'm </h1>
+        <h1 class="animate-character"> Renan Nunes</h1>
+        <h1 class="title-text">, a <br></h1>
+        <h1 class="animate-character"> Game Programmer </h1>
+        <h1 class="title-text"> and </h1>
+        <h1 class="animate-character"> Game Designer</h1>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/renan-nunes-37119222a/" target="_blank">
+          <img src="Images/Linkedin_icon.png" alt="LinkedIn" class="icon">
+        </a>
+        <a href="https://www.instagram.com/renan_nunesd/" target="_blank">
+          <img src="Images/Instagram_icon.png" alt="Instagram" class="icon">
+        </a>
+        <a href="https://store.steampowered.com/curator/45325408" target="_blank">
+          <img src="Images/Steam_icon.png" alt="Steam" class="icon">
+        </a>
+        <a href="https://rerezin-das-galaxias.itch.io" target="_blank">
+          <img src="Images/ItchIO_icon.png" alt="Itch.io" class="icon">
+        </a>
+      </div>
+    </div>
+
+    <div class="scrolling-text-container">
+      <div class="scrolling-text-inner" style="--marquee-speed: 120s; --direction:scroll-left" role="marquee">
+        <div class="scrolling-text">
+          <div class="scrolling-text-item"></div>
+          <div class="scrolling-text-item">Unity</div>
+          <div class="scrolling-text-item">Unreal Engine 5</div>
+          <div class="scrolling-text-item">Game Maker Studio 2</div>
+          <div class="scrolling-text-item">Mono Game</div>
+          <div class="scrolling-text-item">Java</div>
+          <div class="scrolling-text-item">Ren'py</div>
+          <div class="scrolling-text-item">RPG Maker</div>
+          <div class="scrolling-text-item">SQL</div>
+          <div class="scrolling-text-item">JavaScript</div>
+          <div class="scrolling-text-item"></div>
+          <div class="scrolling-text-item">Unity</div>
+          <div class="scrolling-text-item">Unreal Engine 5</div>
+          <div class="scrolling-text-item">Game Maker Studio 2</div>
+          <div class="scrolling-text-item">Mono Game</div>
+          <div class="scrolling-text-item">Java</div>
+          <div class="scrolling-text-item">Ren'py</div>
+          <div class="scrolling-text-item">RPG Maker</div>
+          <div class="scrolling-text-item">SQL</div>
+          <div class="scrolling-text-item">JavaScript</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="highlights">
+    <div style="background-color: black;">
+      <div class="container" style="padding-top: 19vh; padding-bottom: 25vh;">
+        <h1 class="animate-character">Highlights</h2>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-top: 5vh;">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="Images/ScorchieAdventures_header.png" alt="Scorchie Adventures"
+                  style="width:100%; height: 100%;">
+              </div>
+
+              <div class="item">
+                <img src="Images/RuffGhanor_header.jpg" alt="Ruff Ghanor" style="width:100%; height: 100%;">
+              </div>
+
+              <div class="item">
+                <img src="Images/CyberFusion_header.png" alt="Cyber Fusion" style="width:100%; height: 100%;">
+              </div>
+
+              <div class="item">
+                <img src="Images/AmazonQuest_header.jpg" alt="Amazon Quest" style="width:100%; height: 100%;">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class = "container" style="background-color: rgba(0, 0, 0, 0); height: 50vh; padding-top: 15vh;">
+      <h1 class="animate-character" style="text-align: center;">Contact me!</h1>
+      <form action="action_page.php" style = "padding-top: 5vh; padding-bottom: 15vh;">
+        
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="brazil">Brazil</option>
+          <option value="japan">Japan</option>
+          <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="england">England</option>
+          <option value="konoha">Konoha</option>
+          <option value="eastBlue">East Blue</option>
+          <option value="soulSociety">Soul Society</option>
+          <option value="namekkusei">Namekkusei</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:20vb"></textarea>
+    
+        <input type="submit" value="Submit"></input>
+    
+      </form>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="footer">
+      <p style="padding-right: 4vb;">Made by Renan Nunes - 2025</p>
+    </div>    
+  </section>
+</body>
+
+</html>
